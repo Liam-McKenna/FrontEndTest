@@ -8,15 +8,16 @@
             <input type="radio" name="radio1" value="Créer votre société" id="r1" class="input-hidden" />
             <label for="r1">
                 <img src="./img/form-icon1.svg" alt="r1" />
-
             </label>
 
+            <div class="spacerSml"></div>
             <input type="radio" name="radio1" id="r2" value="Transférer votre siège social" class="input-hidden" />
             <label for="r2">
                 <img src="./img/form-icon2.svg" alt="r2" />
             </label>
 
         </div>
+
         <div class="line-container">
             <div class="input-container">
                 <label for="Formejuridique">Forme juridique</label>
@@ -36,6 +37,7 @@
                     <small>Error Message</small>
                 </div>
             </div>
+            <div class="spacer"></div>
             <div class="input-container">
                 <label for="Dénominationsociale">Dénomination sociale</label>
                 <input type="text" name="Dénominationsociale" id="Dénominationsociale" placeholder="XXXXXX">
@@ -68,6 +70,7 @@
                     <small>Error Message</small>
                 </div>
             </div>
+            <div class="spacer"></div>
             <div class="input-container">
                 <label for="Nom">Nom</label>
                 <input type="text" name="Nom" id="Nom" placeholder="Doe">
@@ -81,6 +84,7 @@
                     <small>Error Message</small>
                 </div>
             </div>
+            <div class="spacer"></div>
             <div class="input-container">
                 <label for="Prénom">Prénom</label>
                 <input type="text" name="Prénom" id="Prénom" placeholder="Jeanne">
@@ -109,6 +113,7 @@
                     <small>Error Message</small>
                 </div>
             </div>
+            <div class="spacer"></div>
             <div class="input-container">
                 <label for="email ">Email</label>
                 <input type="email" name="Email" id="Email" placeholder="jeanne.doe@gmail.com">

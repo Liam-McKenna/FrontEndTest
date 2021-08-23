@@ -44,8 +44,15 @@ select {
 }
 
 .input-container {
-  margin: 8px;
+  margin: 8px 0px 8px 0px;
   position: relative;
+}
+
+.spacer {
+  width: 40px;
+}
+.spacerSml {
+  width: 10px;
 }
 
 .input-container.success input,
