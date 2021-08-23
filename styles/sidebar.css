@@ -1,10 +1,13 @@
 .sidebar-container {
   position: absolute;
   width: 245px;
-  height: 100vh;
+  height: 100%;
+  padding-top: 100px;
   left: 0px;
   top: 0px;
   background: #e1e8f3;
+  z-index: 2;
+  /* display: none; */
 }
 
 .status-container {
@@ -30,4 +33,10 @@
 
 .status-text {
   padding: 0 0 0 10px;
+}
+
+@media only screen and (max-width: 1521px) {
+  .sidebar-container {
+    display: none;
+  }
 }

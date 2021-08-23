@@ -8,21 +8,7 @@
             <input type="radio" name="radio1" value="Créer votre société" id="r1" class="input-hidden" />
             <label for="r1">
                 <img src="./img/form-icon1.svg" alt="r1" />
-                test
-            </label>
 
-            <input type="radio" name="radio1" id="r2" value="Transférer votre siège social" class="input-hidden" />
-            <label for="r2">
-                <img src="./img/form-icon2.svg" alt="r2" />
-            </label>
-
-        </div>
-        <div class="line-container">
-
-            <input type="radio" name="radio1" value="Créer votre société" id="r1" class="input-hidden" />
-            <label for="r1">
-                <img src="./img/form-icon1.svg" alt="r1" />
-                test
             </label>
 
             <input type="radio" name="radio1" id="r2" value="Transférer votre siège social" class="input-hidden" />

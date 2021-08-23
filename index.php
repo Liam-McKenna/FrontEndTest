@@ -4,7 +4,9 @@
 <head>
     <?php include './components/globalHead.php' ?>
     <script defer src="javascript/form1.js"></script>
-    <title>Document</title>
+    <meta name="description" content="this is text for the meta description" />
+    <title>Form Page</title>
+
 </head>
 
 <body>
@@ -12,7 +14,7 @@
     <?php include './components/navbar.php' ?>
 
     <!-- sidebar Component -->
-    <!-- <?php include './components/sidebar.php' ?> -->
+    <?php include './components/sidebar.php' ?>
 
     <div class="top-section container">
         <!-- Form Component -->
@@ -27,6 +29,8 @@
         <?php include './components/infoCard.php' ?>
 
     </div>
+
+
     <!-- Footer  -->
 </body>
 

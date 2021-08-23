@@ -1,5 +1,6 @@
 .navbar-container {
   max-width: 1280px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -10,10 +11,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-li {
-  padding: 0rem 2rem 0rem 2rem;
 }
 
 @media only screen and (max-width: 640px) {

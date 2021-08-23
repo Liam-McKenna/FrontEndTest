@@ -3,7 +3,7 @@
 
 <head>
     <?php include './components/globalHead.php' ?>
-    <!-- <script defer src="javascript/form1.js"></script> -->
+    <meta name="description" content="this is text for the meta description" />
     <title>Document</title>
 </head>
 
@@ -17,7 +17,6 @@
 
     <!-- Footer  -->
 </body>
-<!-- 
-<?php include './components/footer.php' ?> -->
+
 
 </html>

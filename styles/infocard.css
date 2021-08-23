@@ -1,10 +1,11 @@
-.infocard-container {
+.cards-container {
 }
 
 .card-line {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .infocard-container {
