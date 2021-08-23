@@ -8,13 +8,15 @@
 </head>
 
 <body>
+
+
     <!-- navbar Component -->
     <?php include './components/navbar.php' ?>
 
     <!-- sidebar Component -->
     <!-- <?php include './components/sidebar.php' ?> -->
 
-
+    <h1>Form Submitted Page</h1>
     <!-- Footer  -->
 </body>
 
