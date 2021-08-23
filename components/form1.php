@@ -3,7 +3,7 @@
     <h2>Informations sur la société</h2>
     <form action="formSubmitPage.php" method="get" id="form1">
         <label for="">Vous souhaitez</label>
-        <div class="line-container">
+        <div class="line-container mobileLine">
 
             <input type="radio" name="radio1" value="Créer votre société" id="r1" class="input-hidden" />
             <label for="r1">
