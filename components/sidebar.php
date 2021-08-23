@@ -24,6 +24,22 @@
             <h3>Paiement et<br> récapitulatif </h3>
         </div>
     </div>
+
+
+    <div class="status-container-mobile-title">
+        <h2>Informations sur la société</h2>
+    </div>
+    <div class="status-container-mobile">
+        <div class="status-line-mobile-active"></div>
+        <div class="status-spacer"></div>
+        <div class="status-line-mobile"></div>
+        <div class="status-spacer"></div>
+        <div class="status-line-mobile"></div>
+        <div class="status-spacer"></div>
+        <div class="status-line-mobile"></div>
+    </div>
+
+
 </div>
 
 </html>
