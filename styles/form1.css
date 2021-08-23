@@ -23,10 +23,6 @@ input[type='radio'] + label > img {
   border-radius: 10px;
 }
 
-input[type='radio']:checked + label > img {
-  /* transform: rotateZ(-10deg) rotateX(10deg); */
-}
-
 .line-container {
   display: flex;
   justify-content: center;
@@ -49,6 +45,34 @@ select {
 
 .input-container {
   margin: 8px;
+  position: relative;
+}
+
+.input-container.success input,
+.input-container.success select {
+  border-color: lightgreen;
+}
+
+.input-container.success .check-icon {
+  visibility: visible;
+}
+
+.icon-container {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  top: 32px;
+  right: 25px;
+  margin: 0;
+  visibility: hidden;
+}
+
+small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: lightcoral;
+  visibility: hidden;
 }
 
 .submitBtn {

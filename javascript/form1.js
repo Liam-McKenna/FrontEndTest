@@ -1,7 +1,6 @@
 const form = document.getElementById('form1');
 
-//get top radio 1
-//get top radio 2
+const radio = document.getElementsByName('radio1');
 
 const legalformat = document.getElementById('legalformat');
 const Dénominationsociale = document.getElementById('Dénominationsociale');
@@ -24,21 +23,93 @@ form1.addEventListener('submit', (e) => {
     e.preventDefault();
   } else {
     console.log('submitted');
-    e.preventDefault();
+    // e.preventDefault();
   }
 });
 
 form1.addEventListener('change', (e) => {
   let id = e.target.id;
   let value = e.target.value;
-  console.log(id);
-  console.log(value);
+  //   console.log(id);
+  //   console.log(value);
 
-  checkInputs();
+  // console.log(radio);
+  // console.log('Radio Value: ');
+  // radio.forEach((option) => {
+  //   if (option.checked) {
+  //     console.log(option.value);
+  //   }
+  // });
+
+  //   console.log(document.querySelector('input[name="radio1"]:checked'));
+
+  checkInputs(); // for continue button
+
+  if (e.target.id === 'legalformat') {
+    if (e.target.value === '') {
+      let message = '';
+      setError(e.target.id, message);
+    } else {
+      setSuccess(e.target.id);
+    }
+  }
+  if (e.target.id === 'Dénominationsociale') {
+    if (e.target.value === '') {
+      let message = '';
+      setError(e.target.id, message);
+    } else {
+      setSuccess(e.target.id);
+    }
+  }
+  if (e.target.id === 'Civilité') {
+    if (e.target.value === '') {
+      let message = '';
+      setError(e.target.id, message);
+    } else {
+      setSuccess(e.target.id);
+    }
+  }
+  if (e.target.id === 'Nom') {
+    if (e.target.value === '') {
+      let message = '';
+      setError(e.target.id, message);
+    } else {
+      setSuccess(e.target.id);
+    }
+  }
+  if (e.target.id === 'Prénom') {
+    if (e.target.value === '') {
+      let message = '';
+      setError(e.target.id, message);
+    } else {
+      setSuccess(e.target.id);
+    }
+  }
+  if (e.target.id === 'Téléphone') {
+    if (e.target.value === '') {
+      let message = '';
+      setError(e.target.id, message);
+    } else {
+      setSuccess(e.target.id);
+    }
+  }
+  if (e.target.id === 'Email') {
+    if (e.target.value === '') {
+      let message = '';
+      setError(e.target.id, message);
+    } else {
+      setSuccess(e.target.id);
+    }
+  }
 });
 
 function checkInputs() {
   let changeErrors = {};
+
+  if (document.querySelector('input[name="radio1"]:checked') === null) {
+    console.log('radio is null');
+    changeErrors['Voussouhaitez'] = 'Vous souhaitez Cannot be blank';
+  }
 
   if (legalformat.value === '') {
     changeErrors['legalformat'] = 'legalformat Cannot be blank';
@@ -70,5 +141,20 @@ function checkInputs() {
     submitBtn.classList.add('greenCheck');
     formComplete = true;
   }
-  console.log(changeErrors);
+  //   console.log(changeErrors);
+}
+
+function setError(inputId, message) {
+  const input = document.getElementById(inputId);
+  const inputContainer = input.parentElement;
+  inputContainer.classList.remove('success');
+  inputContainer.classList.add('error');
+}
+
+function setSuccess(inputId) {
+  console.log('adding Success');
+  const input = document.getElementById(inputId);
+  const inputContainer = input.parentElement;
+  inputContainer.classList.add('success');
+  inputContainer.classList.remove('error');
 }
