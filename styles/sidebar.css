@@ -1,0 +1,33 @@
+.sidebar-container {
+  position: absolute;
+  width: 245px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  background: #e1e8f3;
+}
+
+.status-container {
+  display: flex;
+  align-items: center;
+  color: #99c2ff;
+  margin: 5px 0px 5px 20px;
+}
+
+.text-active {
+  color: #0066ff;
+}
+
+.status-line {
+  height: 100px;
+  width: 4px;
+  background: #99c2ff;
+}
+
+.line-active {
+  background: #0066ff;
+}
+
+.status-text {
+  padding: 0 0 0 10px;
+}

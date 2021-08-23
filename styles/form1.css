@@ -1,0 +1,62 @@
+.form1-container {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+input[type='radio']:checked + label > img {
+  border: 2px solid var(--primary-color);
+  /* box-shadow: 0 0 3px 3px var; */
+}
+
+input[type='radio'] + label > img {
+  border: 2px solid #e0e0e0;
+  width: 220px;
+  height: 150px;
+  background-color: white;
+  transition: 500ms all;
+  border-radius: 10px;
+}
+
+input[type='radio']:checked + label > img {
+  /* transform: rotateZ(-10deg) rotateX(10deg); */
+}
+
+.line-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input,
+select {
+  height: 44px;
+  width: 100%;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.input-container {
+  margin: 8px;
+}
+
+.submitBtn {
+  height: 44px;
+  width: 66%;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+}
