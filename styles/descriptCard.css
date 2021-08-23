@@ -2,15 +2,16 @@
   width: 404px;
   height: 619px;
   background-color: white;
-  /* position: relative; */
+  border-radius: 12px;
   text-align: center;
+  overflow: hidden;
 }
 
 .img-container {
   position: relative;
 }
 
-span {
+.img-title {
   width: 80%;
   color: white;
   position: absolute;
@@ -19,4 +20,17 @@ span {
   transform: translate(-50%, -50%);
   font-weight: 600;
   font-size: 28px;
+}
+
+.descript-price-container h2 {
+  font-size: 36px;
+}
+
+.descript-text-container {
+  display: flex;
+  padding: 10px 0 10px 40px;
+}
+
+.descript-text {
+  margin: 0 0 0 10px;
 }

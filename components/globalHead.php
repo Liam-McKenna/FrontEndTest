@@ -6,3 +6,5 @@
 <link rel="stylesheet" href="./styles/sidebar.css">
 <link rel="stylesheet" href="./styles/form1.css">
 <link rel="stylesheet" href="./styles/descriptCard.css">
+<link rel="stylesheet" href="./styles/home.css">
+<link rel="stylesheet" href="./styles/infocard.css">

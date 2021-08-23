@@ -1,9 +1,10 @@
 <html>
 <div class="form1-container">
     <h2>Informations sur la société</h2>
-    <form action="#" method="get">
+    <form action="#" method="get" id="form1">
         <label for="">Vous souhaitez</label>
         <div class="line-container">
+
             <input type="radio" name="radio1" id="r1" class="input-hidden" />
             <label for="r1">
                 <img src="./img/form-icon1.svg" alt="r1" />
@@ -13,8 +14,8 @@
             <label for="r2">
                 <img src="./img/form-icon2.svg" alt="r2" />
             </label>
-        </div>
 
+        </div>
         <div class="line-container">
             <div class="input-container">
                 <label for="Formejuridique">Forme juridique</label>
@@ -27,10 +28,9 @@
             </div>
             <div class="input-container">
                 <label for="Dénominationsociale">Dénomination sociale</label>
-                <input type="text" placeholder="XXXXXX" name="Dénominationsociale">
+                <input type="text" name="Dénominationsociale" id="Dénominationsociale" placeholder="XXXXXX">
             </div>
         </div>
-
         <div class="line-container">
             <div class="input-container">
                 <label for="Civilité">Civilité</label>
@@ -42,21 +42,21 @@
             </div>
             <div class="input-container">
                 <label for="Nom">Nom</label>
-                <input type="text" placeholder="Doe" name="Nom">
+                <input type="text" name="Nom" id="Nom" placeholder="Doe">
             </div>
             <div class="input-container">
                 <label for="Prénom">Prénom</label>
-                <input type="text" placeholder="Jeanne" name="Prénom">
+                <input type="text" name="Prénom" id="Prénom" placeholder="Jeanne">
             </div>
         </div>
         <div class="line-container">
             <div class="input-container">
                 <label for="Téléphone ">Téléphone</label>
-                <input type="text" placeholder="05.44.23.02.01" name="Téléphone">
+                <input type="text" name="Téléphone" id="Téléphone" placeholder="05.44.23.02.01">
             </div>
             <div class="input-container">
                 <label for="email ">Email</label>
-                <input type="email" placeholder="jeanne.doe@gmail.com" name="Email">
+                <input type="email" name="Email" id="Email" placeholder="jeanne.doe@gmail.com">
             </div>
         </div>
         <div class="line-container">

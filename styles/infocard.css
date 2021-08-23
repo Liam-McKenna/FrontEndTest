@@ -1,0 +1,28 @@
+.infocard-container {
+}
+
+.card-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.infocard-container {
+  width: 280px;
+  height: 200px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.infocard-text {
+  padding: 25px 0 0 0;
+}
+.infocard-text h3 {
+  font-size: 16px;
+}
+.divider {
+  height: 10px;
+}
+.infocard-text span {
+  font-size: 14px;
+}

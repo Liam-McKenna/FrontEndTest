@@ -60,3 +60,7 @@ select {
   color: white;
   font-weight: bold;
 }
+
+.greenCheck {
+  background-color: lightgreen;
+}
