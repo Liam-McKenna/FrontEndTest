@@ -1,6 +1,6 @@
 <html>
 <div class="form1-container">
-    <h2>Informations sur la société</h2>
+    <h2 class="form-title">Informations sur la société</h2>
     <form action="formSubmitPage.php" method="get" id="form1">
         <label for="">Vous souhaitez</label>
         <div class="line-container mobileLine">

@@ -96,6 +96,11 @@ small {
   background-color: lightgreen;
 }
 
+@media only screen and (max-width: 1561px) {
+  .form-title {
+    display: none;
+  }
+}
 @media only screen and (max-width: 640px) {
   input[type='radio'] + label > img {
     width: 100%;
